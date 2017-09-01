@@ -1,5 +1,5 @@
 #!/bin/bash
-$Username=$1
+Username=$1
 getent passwd $Username > /dev/null 
 
 if [ $? -eq 0 ]; then
